@@ -4,6 +4,7 @@ body {
   background-color: white;
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
+  display: flex;
 }
 
 #navbar {
@@ -83,4 +84,11 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
+}
+
+@media (min-width: 50em) {
+  p {
+    float: right;
+    width: 50%;
+  }
 }
